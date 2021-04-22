@@ -1,0 +1,1 @@
+"use strict";var video=document.querySelector(".main-poster__vide\u043E"),mainPoster=document.querySelector(".main-poster__vide\u043E"),header=document.querySelector(".header"),films=document.querySelector(".films"),value=header.clientHeight+films.clientHeight;video.value=.3,window.addEventListener("scroll",function(){700<=window.pageYOffset?video.play():video.pause()});
